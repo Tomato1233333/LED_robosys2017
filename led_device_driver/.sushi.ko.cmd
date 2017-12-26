@@ -1,0 +1,1 @@
+cmd_/home/pi/led_device_driver/sushi.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/led_device_driver/sushi.ko /home/pi/led_device_driver/sushi.o /home/pi/led_device_driver/sushi.mod.o ;  true
