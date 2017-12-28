@@ -36,7 +36,7 @@ static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_
 			gpio_base[10] = 1 << 25;
 			while(jiffies < tomato2)
 			schedule();
-			printk("time = %d 秒経ったよ!!\n",tomato2 - jiffies);
+			printk("keika = %d 経ったよ!!\n",tomato2 - jiffies);
 			gpio_base[7] = 1 << 25;
 			}
 
